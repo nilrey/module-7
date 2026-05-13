@@ -1,0 +1,14 @@
+toml
+
+[project]
+name = "clearml-pipeline"
+version = "0.1.0"
+dependencies = [
+    "clearml[s3]==2.0.2",
+    "pandas>=2.3.2",
+    "scikit-learn>=1.7.1",
+    "ruff>=0.12.11",
+    "s3fs>=2025.9.0",
+    "fsspec>=2025.9.0",
+]
+requires-python = ">=3.12"
